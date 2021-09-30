@@ -4,7 +4,6 @@ public class Exam {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //Scanner input = new Scanner(System.in);
         System.out.println("Please enter your grade level:");
         String s = sc.next();
         char p = s.charAt(0);

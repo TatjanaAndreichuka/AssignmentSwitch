@@ -2,7 +2,6 @@ package com.company;
 import java.util.Scanner;
 
 public class Calc {
-    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
         System.out.println("Please enter two numbers:");
@@ -16,7 +15,7 @@ public class Calc {
                         "‘p’ to print out both numbers;" +
                         "‘b’ to verify the bigger one;" +
                         "‘s’ to verify the smaller one;");
-        String s = sc.next();
+        String s = input.next();
         char p = s.charAt(0);
         System.out.println();
         switch(p){
